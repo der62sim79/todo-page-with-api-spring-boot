@@ -83,10 +83,3 @@ function check(element, id) {
     });
   
 }
-
-/*var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'li') {
-    ev.target.classList.toggle('checked');
-  }
-}, false);*/
