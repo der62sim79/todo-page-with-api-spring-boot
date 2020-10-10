@@ -47,4 +47,13 @@ public class Todo {
     public void setDone(Boolean done) {
         isDone = done;
     }
+
+    @Override
+    public String toString() {
+        return "Todo{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", isDone=" + isDone +
+                '}';
+    }
 }
